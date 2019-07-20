@@ -4,7 +4,7 @@ $haeufigkeit = array();
 
 for ($i =0; $i < count($wortArray); $i++) {
     
-    $buchstabe = $wortArray[$i];                                 // Damit holst du dir den aktuellen Buchstaben -> Zuerst an stelle 0, dann 1 ,...
+    $buchstabe = $wortArray[$i];                                // Damit holst du dir den aktuellen Buchstaben -> Zuerst an stelle 0, dann 1 ,...
 
 
     if (!isset($haeufigkeit[$buchstabe])) {                     // isset prüft ob ein wert enthalten ist. 
