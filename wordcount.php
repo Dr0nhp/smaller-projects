@@ -20,3 +20,4 @@ for ($i =0; $i < count($wortArray); $i++) {
     $haeufigkeit[$buchstabe] = $haeufigkeit[$buchstabe] +1;     // Wenn da schon eine Zahl drin steht, rechnen wir +1 drauf - weil er ja wieder gefunden
                                                                 // wurde.
 }
+var_dump($haeufigkeit);
