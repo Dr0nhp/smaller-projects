@@ -7,7 +7,7 @@ for ($i =0; $i < count($wortArray); $i++) {
     $buchstabe = $wortArray[$i];                                // Damit holst du dir den aktuellen Buchstaben -> Zuerst an stelle 0, dann 1 ,...
 
 
-    if (!isset($haeufigkeit[$buchstabe])) {                     // isset prüft ob ein wert enthalten ist. 
+    if ($haeufigkeit[$buchstabe] = NULL;) {                     // isset prüft ob ein wert enthalten ist. 
                                                                 // Das ! davor macht das gegenteil - es wird also geprüft ob KEIN wert enthalten ist.
                                                                 // Wichtig - auch eine 0 ist ein Wert, deswegen darfst du nicht prüfen ob da 0 drin steht.
                                                                 // Was evtl. gehen würde, wäre zu prüfen ob der wert NULL ist. Also ob er leer ist.
