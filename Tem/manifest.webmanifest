@@ -1,0 +1,16 @@
+{
+    "name": "Tem Helper",
+    "short_name": "T H",
+    "description": "This Webapp should help you while playing TemTem",
+    "dir": "ltr",
+    "lang": "en-US",
+    "display": "standalone";
+    "icons":
+    [
+        {
+            "src": "icon/logo.jpg"
+            "sizes": "128y128",
+            "type": "image/jpg"
+        }
+    ]
+}
